@@ -1,0 +1,18 @@
+{
+    "name": "mindpowered/financecalculator",
+    "version": "0.0.2",
+    "description": "Financial calculations such as Net Present Value, Present Value, Future Value",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "haxe\\": "lib/haxe/",
+            "financecalculator\\": "lib/financecalculator/",
+            "mindpowered\\financecalculator\\": "lib/wrappers/",
+            "php\\": "lib/php/",
+            "": "lib/"
+        }
+    },
+    "require": {
+        "mindpowered/maglev": "*"
+    }
+}

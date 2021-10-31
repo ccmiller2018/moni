@@ -1,0 +1,14 @@
+{
+    "name": "mindpowered/maglev",
+    "version": "0.7.21",
+    "description": "Internal Communication Bus",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "haxe\\": "lib/haxe/",
+            "maglev\\": "lib/maglev/",
+            "php\\": "lib/php/",
+            "": "lib/"
+        }
+    }
+}
